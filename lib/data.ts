@@ -4,7 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/notion.png";
 import rmtdevImg from "@/public/mirro.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import wordanalyticsImg from "@/public/corinna.png";
+import builder from "@/public/builder.png";
 
 export const links = [
   {
@@ -70,7 +71,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Jotion",
+    title: "Jotion - Personal notes",
     description:
       "I created an end-to-end fullstack notion clone, all with proper notion-style editor, cover images, nested documents, publishing documents to public, real-time database and more.",
     tags: ["React", "Next.js", "Convex", "Tailwind", "Prisma", "Shadcn", "Typescript"],
@@ -78,7 +79,7 @@ export const projectsData = [
     url: "https://jotion-note-three.vercel.app/"
   },
   {
-    title: "Mirro",
+    title: "Mirro - Collaborate with others",
     description:
       "A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with ability to add shapes like Rectangles and Ellipses, Sticky notes and Pencil drawing.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Convex", "Prisma"],
@@ -86,11 +87,19 @@ export const projectsData = [
     url: "https://penyard.vercel.app/"
   },
   {
-    title: "Comming soon",
+    title: "Corinna AI - SAAS AI Chatbot",
     description:
-      "problem with free databases",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Manage all you marketing experience with this AI chatbot that takes care all your messaging with the client nd response depending on the form that you give it",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Convex", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Pusher"],
     imageUrl: wordanalyticsImg,
+    url: ""
+  },
+  {
+    title: "Fuzzie - SAAS Automation Builder",
+    description:
+      "SAAS Website Builder, All in one CRM platform, Ticket tracking system, funnels, Stripe Connect, Sell Products through website builder etc",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Convex", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Ngrok"],
+    imageUrl: builder,
     url: ""
   },
 ] as const;
