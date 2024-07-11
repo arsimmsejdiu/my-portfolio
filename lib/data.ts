@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "University of business and technology",
+    title: "PRIME",
     location: "Prishtina, KS",
     description:
-      "I graduated after 3 years in Computer Science. I immediately found a job as a Fullstack developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked there for 2 years as a front-end developer, where i learned all about React and how to build highly scalable front-ends",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2017 - 2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Paragon Custom Communications",
+    location: "Cosgn sur loire, FR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "After comming to France i worked as a Full-stack developer for 2 years, where i was lucky to work from ground up building a dashboard mechanic management platform",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2022",
+  },
+  {
+    title: "Bik'air",
+    location: "Remote, FR",
+    description:
+      "I worked for this great startup for more than 2 years, where i was asigned as a Lead full-stack developer, where i managed the entire application from figma to implementation, creating the microservices along with the microfrontends, to deployment to App store and Google play",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2024",
+  },
+  {
+    title: "Microsoft teams application",
+    location: "Remote, FR",
+    description:
+      "Working as a Lead Front-end developer to plan and code the entire app that will be part of the Engineers at Swisscom for helping them on Teams to access Microsoft Graphs data more easily",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
 ] as const;
 
@@ -78,9 +86,9 @@ export const projectsData = [
     url: "https://penyard.vercel.app/"
   },
   {
-    title: "Word Analytics",
+    title: "Comming soon",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "problem with free databases",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
     url: ""
