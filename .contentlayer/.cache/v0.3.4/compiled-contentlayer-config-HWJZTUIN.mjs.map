@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.ts"],
+  "sourcesContent": ["import {defineDocumentType, makeSource} from \"contentlayer/source-files\";\n\nconst Post = defineDocumentType(() => ({\n    name: 'Post',\n    filePathPattern: `**/*.md`,\n    contentType: \"markdown\",\n    fields: {\n        title: {type: 'string', required: true},\n        date: {type: 'date', required: true},\n        author: {type: 'string', required: true},\n        role: {type: 'string', required: true},\n    },\n}));\n\nexport default makeSource({\n    contentDirPath: 'posts',\n    documentTypes: [Post],\n});"],
+  "mappings": ";AAAA,SAAQ,oBAAoB,kBAAiB;AAE7C,IAAM,OAAO,mBAAmB,OAAO;AAAA,EACnC,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,aAAa;AAAA,EACb,QAAQ;AAAA,IACJ,OAAO,EAAC,MAAM,UAAU,UAAU,KAAI;AAAA,IACtC,MAAM,EAAC,MAAM,QAAQ,UAAU,KAAI;AAAA,IACnC,QAAQ,EAAC,MAAM,UAAU,UAAU,KAAI;AAAA,IACvC,MAAM,EAAC,MAAM,UAAU,UAAU,KAAI;AAAA,EACzC;AACJ,EAAE;AAEF,IAAO,8BAAQ,WAAW;AAAA,EACtB,gBAAgB;AAAA,EAChB,eAAe,CAAC,IAAI;AACxB,CAAC;",
+  "names": []
+}

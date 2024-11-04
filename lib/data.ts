@@ -1,11 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/notion.png";
 import rmtdevImg from "@/public/mirro.png";
 import wordanalyticsImg from "@/public/corinna.png";
 import builder from "@/public/builder.png";
+import Discord from "@/public/dicordimage.png"
 
 export const links = [
   {
@@ -92,7 +91,7 @@ export const projectsData = [
       "Manage all you marketing experience with this AI chatbot that takes care all your messaging with the client nd response depending on the form that you give it",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Convex", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Pusher"],
     imageUrl: wordanalyticsImg,
-    url: ""
+    url: "/"
   },
   {
     title: "Fuzzie - SAAS Automation Builder",
@@ -100,7 +99,15 @@ export const projectsData = [
       "SAAS Website Builder, All in one CRM platform, Ticket tracking system, funnels, Stripe Connect, Sell Products through website builder etc",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Convex", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Ngrok"],
     imageUrl: builder,
-    url: ""
+    url: "/"
+  },
+  {
+    title: "Dicord - Collaborate and interact with your peers",
+    description:
+      "Discord clone where you can chat with others, create video and audio conference, share your screen, invite other people to the server, edit delete messages, private messages and more",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Ngrok", "LiveKit", "SocketIO"],
+    imageUrl: Discord,
+    url: "https://discord-clone-ten-plum.vercel.app/"
   },
 ] as const;
 
