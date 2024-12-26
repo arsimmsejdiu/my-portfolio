@@ -108,7 +108,7 @@ export const projectsData = [
       "Discord clone where you can chat with others, create video and audio conference, share your screen, invite other people to the server, edit delete messages, private messages and more",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Ngrok", "LiveKit", "SocketIO"],
     imageUrl: Discord,
-    url: "https://discord-clone-ten-plum.vercel.app/"
+    url: "https://discord-clone-bj6rqup21-arsimmsejdius-projects.vercel.app/"
   },
   {
     title: "StoreIt - Store your files in the cloud",
