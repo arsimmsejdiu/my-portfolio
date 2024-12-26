@@ -5,6 +5,7 @@ import rmtdevImg from "@/public/mirro.png";
 import wordanalyticsImg from "@/public/corinna.png";
 import builder from "@/public/builder.png";
 import Discord from "@/public/dicordimage.png"
+import Storeit from "@/public/storeit.png"
 
 export const links = [
   {
@@ -108,6 +109,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Ngrok", "LiveKit", "SocketIO"],
     imageUrl: Discord,
     url: "https://discord-clone-ten-plum.vercel.app/"
+  },
+  {
+    title: "StoreIt - Store your files in the cloud",
+    description:
+      "StoreIt is a cloud storage platform where you can store your files, share them with others, create folders, upload files, download files, delete files, search files and more",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "NeonTech", "Uploadcare", "Bun", "Stripe", "Ngrok", "LiveKit", "SocketIO"],
+    imageUrl: Storeit,
+    url: "https://storeit-arsimmsejdius-projects.vercel.app/"
   },
 ] as const;
 

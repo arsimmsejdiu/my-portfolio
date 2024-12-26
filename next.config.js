@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
-const {withContentlayer} = require("next-contentlayer")
-
 const nextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: "https",
         hostname: "avatars.githubusercontent.com",
+        pathname: "/u/**",
       },
       {
         protocol: "https",
@@ -18,5 +17,3 @@ const nextConfig = {
     serverActions: true,
   },
 };
-
-module.exports = withContentlayer(nextConfig);

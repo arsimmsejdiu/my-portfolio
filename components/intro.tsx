@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://avatars.githubusercontent.com/u/56908747?s=400&u=10bc6777d7e1593352ef13105a2f205cf20d8e3e&v=4"
+              src=""
               alt="Arsim Sejdiu"
               width="192"
               height="192"
