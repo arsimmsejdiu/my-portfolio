@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Arsim.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold"> Lead Full-stack Developer</span> with over{" "}
         <span className="font-bold">7 years</span> of experience. I enjoy
         building <span className="italic">software architecture for both mobile & web apps</span>. My focus is{" "}
         <span className="underline">React, React Native, (Next.js), Microservices, Microfrontends, Deployments in Cloud and Containers using Docker</span>.
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1a3oZHJNLalaCLdfaLqtVctgW7Rnb_i0X/view?usp=sharing"
+          href="https://drive.google.com/file/d/1N2osd5TiTrfPqgNwwROTf9QqTfgGuf0M/view?usp=drive_link"
           download
           target="_blank"
         >
