@@ -6,6 +6,7 @@ import wordanalyticsImg from "@/public/corinna.png";
 import builder from "@/public/builder.png";
 import Discord from "@/public/dicordimage.png";
 import Storeit from "@/public/storeit.png";
+import Roomify from "@/public/roomify.png";
 
 export const links = [
   {
@@ -90,6 +91,21 @@ export const experiencesData = [
       "Payroll management System for a company to manage their employees and their salaries, clock in and out, leave management, sick leave management, vacation management. Also, other HR related tasks like employee management, payroll management, etc.",
     icon: React.createElement(CgWorkAlt),
     date: " september 2025 - present",
+  },
+  {
+    title: "Kollektiva architecture builder",
+    location: "Paris, FR",
+    description:
+      "Part of Cronos Payroll management system added feature, AI-powered architectural visualization, transform 2D floor plans into photorealistic 3D renders with permanent hosting and persistent metadata. This project features 2D-to-3D photorealistic rendering, serverless workers, high-performance KV storage, and a global community feed. For now, it's in a private beta.",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2026 - present",
+  },
+  {
+    title: "Soon to be added, another great project",
+    location: "Paris, FR",
+    description: "details will be released soon",
+    icon: React.createElement(CgWorkAlt),
+    date: "mid February 2026 ",
   },
 ] as const;
 
@@ -200,6 +216,24 @@ export const projectsData = [
     imageUrl: Storeit,
     url: "https://storeit-arsimmsejdius-projects.vercel.app/",
   },
+  {
+    title: "roomify - AI-powered architectural visualization",
+    description:
+      "Part of Cronos Payroll management system added feature, AI-powered architectural visualization, transform 2D floor plans into photorealistic 3D renders with permanent hosting and persistent metadata. This project features 2D-to-3D photorealistic rendering, serverless workers, high-performance KV storage, and a global community feed. For now, it's in a private beta.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Prisma",
+      "NeonTech",
+      "Uploadcare",
+      "Bun",
+      "Stripe",
+    ],
+    imageUrl: Roomify,
+    url: "https://roomify-architecture.vercel.app/",
+  },
 ] as const;
 
 export const skillsData = [
@@ -241,4 +275,6 @@ export const skillsData = [
   "Project Manager",
   "Serverless",
   "Framer Motion",
+  "Reusable component libraries",
+  "Microfrontends",
 ] as const;
